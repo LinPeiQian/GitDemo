@@ -18,4 +18,16 @@ public class MainActivity extends Activity {
     	super.onResume();
     }
     
+    @Override
+    protected void onPause() {
+    	// TODO Auto-generated method stub
+    	super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+    	// TODO Auto-generated method stub
+    	super.onStop();
+    }
+    
 }
